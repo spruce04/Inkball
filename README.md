@@ -11,3 +11,7 @@
 * You can use left click to draw lines which balls will bounce off, and right click to remove these lines
 * You can pause the game at any time by pressing the space bar
 * You can restart the current level at any time by pressing the 'r' key
+
+## Extra functionality:
+* You can run the tests for this program by using `gradle test` or `gradle test jacocoTestReport`
+* You can build the javadoc for this game by using `javadoc -d ./docs *.java`
