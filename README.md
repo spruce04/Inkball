@@ -14,4 +14,4 @@
 
 ## Extra functionality:
 * You can run the tests for this program by using `gradle test` or `gradle test jacocoTestReport`
-* You can build the javadoc for this game by using `javadoc -d ./docs *.java`
+* You can build the javadoc for this game by using `javadoc -d ./docs -sourcepath ./src/main/java $(find ./src/main/java -name "*.java")`
